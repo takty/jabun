@@ -2,7 +2,7 @@
  * Segmenter
  *
  * @author Takuto Yanagida
- * @version 2022-05-27
+ * @version 2024-10-12
  */
 
 type char = string;

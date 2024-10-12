@@ -1,0 +1,39 @@
+/**
+ * Styles for Sample
+ *
+ * @author Takuto Yanagida
+ * @version 2024-10-12
+ */
+
+@use 'sass:math';
+
+:root {
+	font-size  : 16px;
+	font-family: -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+}
+
+main {
+	display       : flex;
+	flex-direction: column;
+	align-items   : flex-start;
+	gap           : 1rem;
+
+	textarea {
+		width: 100%;
+	}
+
+	.segmenter {
+		span {
+			border-radius: 0.5rem;
+			margin-inline: 0.15rem;
+			padding-inline: 0.5rem;
+			background-color: #cceeffee;
+		}
+	}
+
+	.column {
+		display: grid;
+		grid-template-columns: 3fr 1fr;
+		gap: 1rem;
+	}
+}

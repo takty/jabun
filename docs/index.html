@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Jabun</title>
+<meta name="description" content="Samples of the Jabun">
+<meta name="author" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <script type="module" crossorigin src="./assets/index-DxMKBhow.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-JcRs9CBX.css">
+</head>
+<body>
+	<header>
+		<h1>Jabun</h1>
+	</header>
+
+	<main>
+		<p>
+			'Jabun' is a library that segments Japanese text into 'bunsetsu' or phrases using only a minimal hiragana dictionary, based on character types.
+		</p>
+
+		<div class="column">
+			<div>
+				<textarea id="segmenter-text" rows="4" placeholder="Enter text">参加希望の方は今すぐ登録してください。この会議では、グローバルなインタネット、Unicode、ソフトウェアの国際化およびローカリゼーション、OSおよびアプリケーションでのUnicodeのインプリメンテーション、フォント、テキスト表示、マルチ言語コンピューティングにおける業界の専門家が集まります。会場は、総合研究院大学院超高度科学研究科です。</textarea>
+			</div>
+
+			<div>
+				<textarea id="segmenter-pn" rows="4" placeholder="Enter proper nouns">総合研究院
+大学院
+超高度科学研究科
+</textarea>
+			</div>
+		</div>
+
+		<div>
+			<button id="apply-segmenter">Apply Segmenter</button>
+		</div>
+
+		<p id="segmenter-result" class="segmenter"></p>
+	</main>
+</body>
+</html>
